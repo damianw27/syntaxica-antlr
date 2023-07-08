@@ -1,5 +1,5 @@
 {
-  "name": "@syntaxica/antlr4",
+  "name": "@syntaxica/antlr",
   "version": "4.12.0",
   "type": "module",
   "browser": "dist/index.web.mjs",
