@@ -7,6 +7,9 @@
   "types": "types/index.d.ts",
   "license": "BSD-3-Clause",
   "private": false,
+  "repository": {
+    "url": "https://github.com/damianw27/syntaxica-antlr.git"
+  },
   "scripts": {
     "build": "webpack --config=./webpack.config.cjs"
   },
