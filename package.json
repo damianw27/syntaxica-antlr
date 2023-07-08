@@ -1,0 +1,46 @@
+{
+  "name": "@syntaxica/antlr4",
+  "version": "4.12.0",
+  "type": "module",
+  "browser": "dist/index.web.mjs",
+  "main": "dist/index.node.mjs",
+  "types": "types/index.d.ts",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "build": "webpack --config=./webpack.config.cjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/eslint-parser": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.39.0",
+    "eslint-config-alloy": "^5.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-webpack-plugin": "^4.0.1",
+    "prettier": "^2.8.8",
+    "terser-webpack-plugin": "^5.3.7",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2"
+  },
+  "exports": {
+    ".": {
+      "node": {
+        "types": "types/index.d.ts",
+        "import": "dist/index.node.mjs",
+        "require": "dist/index.node.cjs",
+        "default": "dist/index.node.mjs"
+      },
+      "browser": {
+        "types": "types/index.d.ts",
+        "import": "dist/index.web.mjs",
+        "require": "dist/index.web.cjs",
+        "default": "dist/index.web.mjs"
+      }
+    }
+  }
+}
