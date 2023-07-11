@@ -1,6 +1,6 @@
 {
   "name": "@syntaxica/antlr",
-  "version": "4.12.0",
+  "version": "4.12.0-1",
   "type": "module",
   "browser": "dist/index.web.mjs",
   "main": "dist/index.node.mjs",
@@ -33,17 +33,17 @@
   },
   "exports": {
     ".": {
-      "node": {
-        "types": "types/index.d.ts",
-        "import": "dist/index.node.mjs",
-        "require": "dist/index.node.cjs",
-        "default": "dist/index.node.mjs"
-      },
       "browser": {
         "types": "types/index.d.ts",
         "import": "dist/index.web.mjs",
         "require": "dist/index.web.cjs",
         "default": "dist/index.web.mjs"
+      },
+      "node": {
+        "types": "types/index.d.ts",
+        "import": "dist/index.node.mjs",
+        "require": "dist/index.node.cjs",
+        "default": "dist/index.node.mjs"
       }
     }
   }
