@@ -1,0 +1,12 @@
+/node_modules
+/src
+.babelrc
+.eslintignore
+.eslintrc.cjs
+.gitattribute
+.gitignore
+.npmignore
+.prettierrc.cjs
+tsconfig.json
+webpack.config.cjs
+yarn.lock
